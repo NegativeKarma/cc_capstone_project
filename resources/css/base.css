@@ -236,8 +236,18 @@ nav {
   padding: 1.313rem 24.25rem 1.313rem 25rem;
 }
 
-nav a:visted {
-  color: hsla(0, 0%, 29%, 1);
+nav a {
+  color: blue;
+  text-decoration: underline;
+  transition: .3s;
+}
+
+nav a:active{
+  /* color: hsla(0, 0%, 29%, 1); */
+}
+
+nav a:hover {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -299,6 +309,13 @@ footer .links {
 }
 
 footer a {
+  color: blue;
+  text-decoration: underline;
+  transition: .3s;
+}
+
+footer a:hover {
+  text-decoration: none;
   color: hsla(0, 0%, 29%, 1);
 }
 
