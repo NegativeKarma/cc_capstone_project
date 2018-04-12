@@ -12,12 +12,12 @@
   opacity: 0.5 !important,
 }
 
-.hero h2 {
+.hero h1 {
   padding-top: 10rem;
   color: hsla(0, 100%, 100%, 1);
   font-family: Helvetica;
   font-weight: 900;
-  font-size: 32px !important;
+  font-size: 32px;
   font-weight: bold;
   text-align: center;
 }
@@ -28,7 +28,7 @@
 
 .products h2 {
   margin-top: 2rem;
-  font-size: inherit;
+  font-size: 28px !important;
   font-weight: 800;
   line-height: 1.6;
 }
