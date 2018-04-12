@@ -19,10 +19,6 @@ a {
   transition: .3s;
 }
 
-a:hover {
-  color: hsla(0, 0%, 29%, 1);
-}
-
 h1,
 h2,
 h3,
@@ -44,14 +40,20 @@ select {
   border-radius: 30px;
   background-color: hsla(0, 0%, 13%, 1);
   text-align: center;
-  color: hsla(0, 0%, 93%, 1);
+  color: #fff;
   transition: .25s;
 }
 
 .button:hover {
+  box-shadow: 0px 4px green;
+}
 
-  background-color: Black - hsla(0, 0%, 13%, 1);
-  color: hsla(0, 100%, 100%, 1);
+.button:active {
+  margin-top: 6px;
+  margin-bottom: 4px;
+  box-shadow: 0px 0px;
+  background-color: #C0D6DF;
+  color: #fff;
 }
 
 /* Reusable Component - Image Container */
@@ -87,6 +89,10 @@ select {
   border: solid 1px hsla(0, 0%, 91%, 1);
 }
 
+.product-category:hover {
+  opacity: 0.8;
+}
+
 .product-category .description-category {
   padding: 1.5rem;
   text-align: left;
@@ -101,6 +107,10 @@ select {
   border-radius: 2px;
   background-color: hsla(0, 0%, 100%, 1);
   border: solid 1px hsla(0, 0%, 91%, 1);
+}
+
+.product-item:hover {
+  opacity: 0.8;
 }
 
 .product-item .description {
@@ -146,13 +156,18 @@ ul.breadcrumb li {
 ul.breadcrumb li+li:before {
     padding: 2rem;
     color: hsla(0, 0%, 29%, 1);
-    content: "/\00a0";
+    content: " > ";
 }
+
 ul.breadcrumb li a {
+    color: blue;
+    text-decoration: underline;
+}
+
+ul.breadcrumb li a:hover {
     color: hsla(0, 0%, 29%, 1);
     text-decoration: none;
 }
-
 
 @media only screen and (max-width: 1100px) {
   .product-list {
@@ -236,7 +251,14 @@ nav {
   padding: 1.313rem 24.25rem 1.313rem 25rem;
 }
 
-nav a:visted {
+nav a {
+  color: blue;
+  text-decoration: underline;
+  transition: .3s;
+}
+
+nav a:hover {
+  text-decoration: none;
   color: hsla(0, 0%, 29%, 1);
 }
 
@@ -299,6 +321,13 @@ footer .links {
 }
 
 footer a {
+  color: blue;
+  text-decoration: underline;
+  transition: .3s;
+}
+
+footer a:hover {
+  text-decoration: none;
   color: hsla(0, 0%, 29%, 1);
 }
 
