@@ -246,18 +246,20 @@ header {
 
 nav {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   justify-items: center;
+  align-items: center;
   grid-area: nav;
   background-color: hsla(0, 0%, 93%, 1);
   border-top: 1px solid hsla(56, 8%, 60%, 1);
-  padding: 1.313rem 24.25rem 1.313rem 25rem;
+  padding: 1.313rem 1.25rem 1.313rem 1.25rem;
 }
 
 nav a {
   color: hsla(259, 14%, 56%, 1);
   text-decoration: underline;
   transition: .3s;
+  /* text-align: center; */
 }
 
 nav a:hover {
