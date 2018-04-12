@@ -19,10 +19,6 @@ a {
   transition: .3s;
 }
 
-a:hover {
-  color: hsla(0, 0%, 29%, 1);
-}
-
 h1,
 h2,
 h3,
@@ -44,14 +40,20 @@ select {
   border-radius: 30px;
   background-color: hsla(0, 0%, 13%, 1);
   text-align: center;
-  color: hsla(0, 0%, 93%, 1);
+  color: #fff;
   transition: .25s;
 }
 
 .button:hover {
+  box-shadow: 0px 4px green;
+}
 
-  background-color: Black - hsla(0, 0%, 13%, 1);
-  color: hsla(0, 100%, 100%, 1);
+.button:active {
+  margin-top: 6px;
+  margin-bottom: 4px;
+  box-shadow: 0px 0px;
+  background-color: #C0D6DF;
+  color: #fff;
 }
 
 /* Reusable Component - Image Container */
@@ -242,12 +244,9 @@ nav a {
   transition: .3s;
 }
 
-nav a:active{
-  /* color: hsla(0, 0%, 29%, 1); */
-}
-
 nav a:hover {
   text-decoration: none;
+  color: hsla(0, 0%, 29%, 1);
 }
 
 @media only screen and (max-width: 1100px) {
