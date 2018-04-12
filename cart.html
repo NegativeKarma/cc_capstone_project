@@ -11,30 +11,30 @@
 
     <!-- Header -->
 
-    <nav>
+    <nav role="banner" aria-label="Main Navigation">
       <div class="image-container">
-        <a href="index.html"><img src="resources/img/home.png"></a>
+        <a href="index.html"><img src="resources/img/home.png" alt="warehouse"></a>
       </div>
       <a href="deals.html">Today's Deals</a>
       <a href="products.html">Products</a>
       <a href="sell.html" title="sell your items page">Sell</a>
       <div class="search-bar">
         <input type="text" name="search" placeholder="Search for items">
-        <a href="" class="icon"><img src="resources/img/search.svg"></a>
+        <a href="" class="icon"><img src="resources/img/search.svg" alt="search"></a>
       </div>
-      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg"></a>
+      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg" alt="cart"></a>
     </nav>
 
     <!-- Cart -->
 
-    <div id="main" class="product-list-section">
+    <main id="main" class="product-list-section" role="main" aria-labelledby="main">
       <h2>Shopping Cart</h2>
 
-    <div class="shopping-cart">
+    <div class="shopping-cart" aria-labelledby="no-border">
 
         <div class="row">
           <div class="image-container">
-            <img src="resources/img/cart/white-console.jpg">
+            <img src="resources/img/cart/white-console.jpg" alt="white_console">
           </div>
 
           <div class="description">
@@ -50,7 +50,7 @@
 
         <div class="row">
           <div class="image-container">
-            <img src="resources/img/cart/yellow-chair.jpg">
+            <img src="resources/img/cart/yellow-chair.jpg" alt="yellow_chair">
           </div>
 
           <div class="description">
@@ -66,7 +66,7 @@
 
         <div class="row" id="no-border">
           <div class="image-container">
-            <img src="resources/img/cart/wire-stool.jpg">
+            <img src="resources/img/cart/wire-stool.jpg" alt="wire_stool">
           </div>
 
           <div class="description">
@@ -88,13 +88,13 @@
         <a href="" class="button">Checkout</a>
       </div>
   </div>
-</div>
+</main>
 
     <!-- Footer -->
 
-    <footer>
+    <footer role="contentinfo" aria-label="footer">
       <div class="links">
-        <a href="index.html"><img src="resources/img/home.png"></a>
+        <a href="index.html"><img src="resources/img/home.png" alt="warehouse"></a>
       </div>
       <div class="links">
       </div>

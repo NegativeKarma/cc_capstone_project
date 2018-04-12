@@ -12,23 +12,23 @@
 
     <!-- Header -->
 
-    <nav>
+    <nav role="banner" aria-label="Main Navigation">
       <div class="image-container">
-        <a href="index.html"><img src="resources/img/home.png"></a>
+        <a href="index.html"><img src="resources/img/home.png" alt="warehouse"></a>
       </div>
       <a href="deals.html">Today's Deals</a>
       <a href="products.html">Products</a>
       <a></a>
       <div class="search-bar">
         <input type="text" name="search" placeholder="Search for items">
-        <a href="" class="icon"><img src="resources/img/search.svg"></a>
+        <a href="" class="icon"><img src="resources/img/search.svg" alt="search"></a>
       </div>
-      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg"></a>
+      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg" alt="cart"></a>
     </nav>
 
     <!-- Sell Product Form -->
 
-    <div id="main" class="sell">
+    <main id="main" class="sell" role="main" aria-labelledby="main">
       <h1>Describe and submit your product to sell it on WareHouse</h1>
       <form>
         <div id="name" class="field">
@@ -46,7 +46,7 @@
             <option value="200">100-200</option>
             <option value="300">200-300</option>
             <option value="400">300-400</option>
-            <option value="500">>500</option>
+            <option value="500">400+</option>
           </select>
         </div>
         <div id="description" class="field">
@@ -55,13 +55,13 @@
         </div>
         <a href="#" class="button" id="submit">Submit</a>
       </form>
-    </div>
+    </main>
 
     <!-- Footer -->
 
-    <footer>
+    <footer role="contentinfo" aria-label="footer">
       <div class="links">
-        <a href="index.html"><img src="resources/img/home.png"></a>
+        <a href="index.html"><img src="resources/img/home.png" alt="warehouse"></a>
       </div>
       <div class="links">
       </div>
