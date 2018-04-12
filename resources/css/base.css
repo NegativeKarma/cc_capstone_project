@@ -45,14 +45,14 @@ select {
 }
 
 .button:hover {
-  box-shadow: 0px 4px green;
+  box-shadow: 0px 4px hsla(56, 8%, 60%, 1);
 }
 
 .button:active {
   margin-top: 6px;
   margin-bottom: 4px;
   box-shadow: 0px 0px;
-  background-color: #C0D6DF;
+  background-color: hsla(259, 14%, 56%, 1);
   color: #fff;
 }
 
@@ -135,12 +135,14 @@ select {
 .field {
   display: flex;
   flex-direction: column;
+  padding-right: 15px;
 }
 
 .field label {
-  padding-bottom: .75rem;
+  font-size: 16px;
+  padding-bottom: .25rem;
+  padding-top: .75rem;
 }
-
 
 /* Reusable Component - Navigation Breadcrumbs */
 ul.breadcrumb {
@@ -155,17 +157,17 @@ ul.breadcrumb li {
 }
 ul.breadcrumb li+li:before {
     padding: 2rem;
-    color: hsla(0, 0%, 29%, 1);
+    color: hsla(56, 8%, 60%, 1);
     content: " > ";
 }
 
 ul.breadcrumb li a {
-    color: blue;
+    color: hsla(259, 14%, 56%, 1);
     text-decoration: underline;
 }
 
 ul.breadcrumb li a:hover {
-    color: hsla(0, 0%, 29%, 1);
+    color: hsla(56, 8%, 60%, 1);
     text-decoration: none;
 }
 
@@ -213,6 +215,7 @@ header {
 
 .search-bar input {
   flex-grow: 1;
+  background-color: hsla(56, 8%, 60%, 1);
   border-top-right-radius: 0;
   border-top-left-radius: 30px;
   border-bottom-right-radius: 0;
@@ -220,7 +223,7 @@ header {
 }
 
 .search-bar .icon {
-  background-color: hsla(0, 0%, 89%, 1);
+  background-color: hsla(56, 8%, 60%, 1);
   border-radius: 0 53px 53px 0;
   padding: 1rem;
 }
@@ -247,19 +250,19 @@ nav {
   justify-items: center;
   grid-area: nav;
   background-color: hsla(0, 0%, 93%, 1);
-  border-top: 1px solid hsla(0, 0%, 85%, 1);
+  border-top: 1px solid hsla(56, 8%, 60%, 1);
   padding: 1.313rem 24.25rem 1.313rem 25rem;
 }
 
 nav a {
-  color: blue;
+  color: hsla(259, 14%, 56%, 1);
   text-decoration: underline;
   transition: .3s;
 }
 
 nav a:hover {
   text-decoration: none;
-  color: hsla(0, 0%, 29%, 1);
+  color: hsla(56, 8%, 60%, 1);
 }
 
 @media only screen and (max-width: 1100px) {
@@ -308,7 +311,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   padding: 1.5rem;
-  background-color: hsla(0, 100%, 100%, 1);
+  background-color: hsla(0, 0%, 93%, 1);
 }
 
 footer img {
@@ -321,14 +324,14 @@ footer .links {
 }
 
 footer a {
-  color: blue;
+  color: hsla(259, 14%, 56%, 1);
   text-decoration: underline;
   transition: .3s;
 }
 
 footer a:hover {
   text-decoration: none;
-  color: hsla(0, 0%, 29%, 1);
+  color: hsla(56, 8%, 60%, 1);
 }
 
 @media only screen and (max-width: 810px) {
