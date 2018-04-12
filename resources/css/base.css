@@ -89,6 +89,10 @@ select {
   border: solid 1px hsla(0, 0%, 91%, 1);
 }
 
+.product-category:hover {
+  opacity: 0.8;
+}
+
 .product-category .description-category {
   padding: 1.5rem;
   text-align: left;
@@ -103,6 +107,10 @@ select {
   border-radius: 2px;
   background-color: hsla(0, 0%, 100%, 1);
   border: solid 1px hsla(0, 0%, 91%, 1);
+}
+
+.product-item:hover {
+  opacity: 0.8;
 }
 
 .product-item .description {
