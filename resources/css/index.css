@@ -14,7 +14,7 @@
 .hero h1 {
   padding-top: 10rem;
   color: hsla(0, 100%, 100%, 1);
-  font-family: Helvetica;
+  font-family: "Helvetica", Arial, sans-serif;
   font-weight: 900;
   font-size: 32px;
   font-weight: bold;
