@@ -3,6 +3,10 @@
   margin-right: 2rem;
 }
 
+#main h2 {
+  font-size: 28px;
+}
+
 .product-list-section {
   padding: 2rem 5rem 3.75rem 5rem;
 }
