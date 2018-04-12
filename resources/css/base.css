@@ -196,16 +196,6 @@ ul.breadcrumb li a:hover {
 
 /* Header */
 
-header {
-  grid-area: header;
-  display: grid;
-  grid-template-columns: 22rem 1fr 22rem;
-  align-items: center;
-  padding: .75rem 5rem;
-  font-size: inherit;
-  background-color: hsla(0, 0%, 93%, 1);
-}
-
 .search-bar {
   display: flex;
   border-radius: 33px 53px 33pzx 53px;
